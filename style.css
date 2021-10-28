@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-left: 60px;
+}
+
+header, .problem {
+  background:  #161B22;
+}
+
+body {
+  background: #0D1117;
+  display: flex;
+  flex-direction: column;
+}
+
+.problem {
+  border-radius: 10px;
+  margin: 30px;
+  margin-bottom: 0;
+  padding: 10px 90px;
+}
+
+body:last-child {
+  margin-bottom: 30px;
+}
+
+.problem li {
+  font-size: 18px;
+}
+
+.problem h2 {
+  margin: 10px 0;
+}
+
+.problem p, .problem li {
+  margin: 5px 0;
+}
+
+h1, h2, h3 {
+  color: #C9D1D9;
+}
+
+p, li {
+  color: #8B949E;
+}
+
+ul {
+  list-style: inside;
+}
+
+.flex {
+  display: flex;
+}
+
+.folder {
+  align-items: flex-start;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  user-select: none;
+  margin-bottom: 10px;
+}
+
+.folder:last-child {
+  margin-bottom: 0;
+}
+
+.inner-folder:hover {
+  cursor: pointer;
+}
+
+.directory {
+  flex-direction: column;
+}
+
+.folder > .directory {
+  display: none;
+  margin-left: 20px;
+}
+
+.inner-folder {
+  width: 250px;
+  padding-right: 15px;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.arrow {
+  transition: 300ms;
+}
