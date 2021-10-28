@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-left: 60px;
+}
+
+header, .problem {
+  background:  #161B22;
+}
+
+body {
+  background: #0D1117;
+  display: flex;
+  flex-direction: column;
+}
+
+.problem {
+  border-radius: 10px;
+  margin: 30px;
+  margin-bottom: 0;
+  padding: 10px 90px;
+}
+
+body:last-child {
+  margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+  color: #C9D1D9;
+}
+
+p, li {
+  color: #8B949E;
+}
+
+.flex {
+  display: flex;
+}
+
+.tanks {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tank {
+  width: 250px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tank:hover {
+  background: rgb(43, 45, 53);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sign {
+  align-items: center;
+  justify-content: center;
+}
+
+.sign * {
+  margin-left: 10px;
+}
+
+.headline {
+  align-items: center;
+}
+
+.headline * {
+  margin-right: 15px;
+}
+
+.details > div {
+  width: 50%;
+}
+
+.details div img {
+  width: 100%;
+}
+
+.details div table {
+  width: 100%;
+  color: white;
+}
+
+table td {
+  border: 1px solid white;
+  padding: 5px;
+}
